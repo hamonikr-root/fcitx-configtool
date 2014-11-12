@@ -1,0 +1,111 @@
+fcitx-configtool (0.4.7-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Aron Xu <aron@debian.org>  Fri, 02 Aug 2013 14:00:53 +0800
+
+fcitx-configtool (0.4.6-3) unstable; urgency=low
+
+  * fcitx-config-gtk but not fcitx-config-common depends on
+    gnome-icon-theme-symbolic.
+
+ -- YunQiang Su <wzssyqa@gmail.com>  Sat, 16 Feb 2013 17:30:16 +0800
+
+fcitx-configtool (0.4.6-2) unstable; urgency=low
+
+  * fcitx-config-gtk depends on 
+    gnome-icon-theme-symbolic (Closes: #699418).
+
+ -- YunQiang Su <wzssyqa@gmail.com>  Sat, 16 Feb 2013 17:20:23 +0800
+
+fcitx-configtool (0.4.6-1) unstable; urgency=low
+
+  * Imported Upstream version 0.4.6
+  * debian/control:
+    - Depend on gnome-icon-theme-symbolic (Closes: #699418)
+
+ -- YunQiang Su <wzssyqa@gmail.com>  Fri, 15 Feb 2013 15:57:30 +0800
+
+fcitx-configtool (0.4.5.2-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Aron Xu <aron@debian.org>  Mon, 14 Jan 2013 11:04:30 +0800
+
+fcitx-configtool (0.4.5.1-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Aron Xu <aron@debian.org>  Fri, 30 Nov 2012 20:53:37 +0800
+
+fcitx-configtool (0.4.5-1) experimental; urgency=low
+
+  * New upstream release.
+  * Drop patch accept by upstream.
+
+ -- YunQiang Su <wzssyqa@gmail.com>  Wed, 26 Sep 2012 20:55:14 +0800
+
+fcitx-configtool (0.4.4-1) unstable; urgency=low
+
+  * New Upstream release 0.4.4.
+  * Build it for gtk2 and split to fcitx-config-gtk2 package.
+
+ -- YunQiang Su <wzssyqa@gmail.com>  Wed, 06 Jun 2012 17:14:02 +0800
+
+fcitx-configtool (0.4.3-2) unstable; urgency=low
+
+  * Add .desktop file for fcitx-config-gtk3 but don't show it.
+    Fix an problem: it willn't show icons when run it from CLI.
+
+ -- YunQiang Su <wzssyqa@gmail.com>  Wed, 16 May 2012 10:32:21 +0800
+
+fcitx-configtool (0.4.3-1) unstable; urgency=low
+
+  * New Upstream version 0.4.3
+
+ -- YunQiang Su <wzssyqa@gmail.com>  Tue, 15 May 2012 11:36:37 +0800
+
+fcitx-configtool (0.4.2-2) unstable; urgency=low
+
+  * New upstream release.
+  * -2 is due to a version uploaded to ppa:fcitx-team/nightly.
+
+ -- YunQiang Su <wzssyqa@gmail.com>  Fri, 27 Apr 2012 04:25:28 +0800
+
+fcitx-configtool (0.4.1-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Aron Xu <aron@debian.org>  Sun, 18 Mar 2012 22:20:57 +0800
+
+fcitx-configtool (0.4.0-2) unstable; urgency=low
+
+  * Enable GTK3, disable GTK2.
+  * Correct mailing list address.
+  * Use libunique3.
+
+ -- Aron Xu <aron@debian.org>  Wed, 08 Feb 2012 02:04:57 +0800
+
+fcitx-configtool (0.4.0-1) unstable; urgency=low
+
+  * New upstream release: for fcitx 4.2.0.
+
+ -- YunQiang Su <wzssyqa@gmail.com>  Sun, 05 Feb 2012 22:07:14 +0800
+
+fcitx-configtool (0.3.1-1build1) unstable; urgency=low
+
+  * No change rebuild in updated build environment.
+
+ -- Aron Xu <aron@debian.org>  Mon, 03 Oct 2011 10:58:55 +0800
+
+fcitx-configtool (0.3.1-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Aron Xu <aron@debian.org>  Fri, 30 Sep 2011 00:53:43 +0800
+
+fcitx-configtool (0.2.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #604022)
+
+ -- Aron Xu <aron@debian.org>  Sat, 18 Dec 2010 15:45:45 +0800

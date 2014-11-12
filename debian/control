@@ -1,0 +1,63 @@
+Source: fcitx-configtool
+Section: utils
+Priority: optional
+Maintainer: IME Packaging Team <pkg-ime-devel@lists.alioth.debian.org>
+Uploaders: Aron Xu <aron@debian.org>, YunQiang Su <wzssyqa@gmail.com>
+Build-Depends: debhelper (>= 9), cmake, fcitx-libs-dev (>= 1:4.2.8), fcitx-bin,
+ libunique-dev, libgtk-3-dev, iso-codes, libgtk2.0-dev (>= 2.22), pkg-config,
+ libdbus-glib-1-dev
+Standards-Version: 3.9.4
+Homepage: http://code.google.com/p/fcitx
+Vcs-Git: git://anonscm.debian.org/pkg-ime/fcitx-configtool.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-ime/fcitx-configtool.git
+
+Package: fcitx-config-common
+Architecture: all
+Depends: ${misc:Depends}
+Description: graphic Fcitx configuration tool - common files
+ Fcitx is the Free Chinese Input Toy of X, which was initially designed
+ for Chinese users, and used XIM protocol. Now it has already evolved
+ into a highly modularized, feature rich input method framework for
+ Unix-like platforms supporting a considerable amount of frontends,
+ backends and modules.
+ .
+ It is an ideal choice for the vast majority. Many of its features make
+ users of Unix-like platforms have a fully modern input experience for
+ the first time. It has also greatly lower the threshold for developers,
+ making the development of extended funtions much easier than ever before.
+ .
+ This package provides common files for the graphic configuration tool.
+
+Package: fcitx-config-gtk
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, fcitx-config-common (= ${source:Version}), gnome-icon-theme-symbolic
+Description: graphic Fcitx configuration tool - Gtk+ 3 version
+ Fcitx is the Free Chinese Input Toy of X, which was initially designed
+ for Chinese users, and used XIM protocol. Now it has already evolved
+ into a highly modularized, feature rich input method framework for
+ Unix-like platforms supporting a considerable amount of frontends,
+ backends and modules.
+ .
+ It is an ideal choice for the vast majority. Many of its features make
+ users of Unix-like platforms have a fully modern input experience for
+ the first time. It has also greatly lower the threshold for developers,
+ making the development of extended funtions much easier than ever before.
+ .
+ This package provides GTK+ 3 version of the graphic configuration tool.
+
+Package: fcitx-config-gtk2
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, fcitx-config-common (= ${source:Version})
+Description: graphic Fcitx configuration tool - Gtk+ 2 version
+ Fcitx is the Free Chinese Input Toy of X, which was initially designed
+ for Chinese users, and used XIM protocol. Now it has already evolved
+ into a highly modularized, feature rich input method framework for
+ Unix-like platforms supporting a considerable amount of frontends,
+ backends and modules.
+ .
+ It is an ideal choice for the vast majority. Many of its features make
+ users of Unix-like platforms have a fully modern input experience for
+ the first time. It has also greatly lower the threshold for developers,
+ making the development of extended funtions much easier than ever before.
+ .
+ This package provides GTK+ 2 version of the graphic configuration tool.

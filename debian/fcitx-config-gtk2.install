@@ -1,0 +1,2 @@
+usr/bin/fcitx-config-gtk
+debian/fcitx-config-gtk2.desktop /usr/share/applications/
